@@ -4,7 +4,7 @@ const expect = require('expect')
 describe('td.replace', () => {
   let mock, normal
   beforeEach(() => {
-    mock = td.replace('../bar', function(){return 'replacement works'})
+    mock = td.replace('../bar', () => 'replacement works')
     normal = require('../foo')
   })
   afterEach(() => {
