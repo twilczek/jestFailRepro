@@ -12,7 +12,7 @@
   "devDependencies": {},
   "scripts": {
     "test:mocha": "mocha ./tests/foo.test.js",
-    "test:jest": "jest ./tests/foo.test.js || true"
+    "test:jest": "jest ./tests/foo.test.js"
   },
   "keywords": [],
   "author": "",

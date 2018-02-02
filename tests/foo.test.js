@@ -10,7 +10,7 @@ describe('td.replace', () => {
   afterEach(() => {
     td.reset()
   })
-  it('works with jest', () => {
+  it('works with jest and mocha', () => {
     const result = normal()
     expect(result).toEqual('replacement works')
   })
